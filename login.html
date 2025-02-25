@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>RentLoom Software</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Google Fonts (example: Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-section">
+                        <div class="form-content-div">
+                            <div style="display: flex; justify-content: center; align-items: center;">
+                                <img src="assets/logo.png" style="height: 40px; margin-right: 10px;">
+                            </div>
+                            <br>
+                            <h1 class="text-center">Welcome back.</h1>
+                            <p class="text-center">Welcome back! Please enter your credentials.</p>
+                            <form class="mt-4">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                                </div>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div>
+                                        <input type="checkbox" id="remember"> <label for="remember">Remember for 30 days</label>
+                                    </div>
+                                    <a href="#" class="text-decoration-none form-link">Forgot password?</a>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 signin-btn">Sign in</button>
+                                <div class="text-center my-3"></div>
+                                <button type="button" class="btn btn-secondary bg-light text-dark p-2 w-100 google-btn">
+                                    <img src="https://img.icons8.com/color/16/000000/google-logo.png"/> Sign in with Google
+                                </button>
+                                <p class="text-center mt-4">Don’t have an account? <a href="#" class="text-decoration-none form-link">Sign up</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="image-section"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
